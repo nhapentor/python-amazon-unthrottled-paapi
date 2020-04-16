@@ -1,4 +1,4 @@
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Samphan Pojanasophanakul"
 __copyright__ = "Copyright 2020 apptiviz.com"
 __maintainer__ = "Samphan Pojanasophanakul"

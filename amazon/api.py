@@ -23,7 +23,7 @@ class Amazon:
 
         api_url = self._get_api_url(**kwargs).replace('webservices.amazon.com','com.commercedna.com')                
         response = self._call_api(api_url)        
-        response_text = response.read()
+        response_text = response.read().decode('UTF-8')
 
         return response_text
         
